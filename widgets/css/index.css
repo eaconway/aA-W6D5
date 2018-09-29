@@ -1,0 +1,45 @@
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+#root{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clock{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clock-body{
+  display:flex;
+  flex-direction: column;
+  border: 5px solid #f442eb;
+  margin: 0 auto;
+  background-color: #62ff00;
+  width: 300px;
+  padding: 10px;
+  font-size: 24px;
+  color: white;
+  text-shadow:2px 2px black;
+}
+
+.time{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+.clock-header {
+  font-family: Montserrat;
+  font-size: 36px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
